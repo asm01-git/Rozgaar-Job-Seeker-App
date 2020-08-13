@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fui_auto_verified">విజయవంతమైన సైన్ ఇన్</string>
+    <string name="fui_error_too_many_attempts">This phone number has been used too many times</string>
+    <string name="fui_verify_phone_number">ఫోన్ నంబర్‌ను ధృవీకరించండి</string>
+    <string name="fui_enter_confirmation_code">మేము ఈ ఫోన్ నంబర్ కు పంపిన 6-అంకెల కోడ్‌ను నమోదు చేయండి</string>
+    <string name="fui_resend_code">కోడ్ మళ్ళి పంపించు</string>
+    <string name="fui_verify_phone_number_title">Sign In With OTP</string>
+    <string name="fui_verifying">Verifying…</string>
+    <string name="fui_error_quota_exceeded">" మీ ఫోన్ నంబర్‌ను ధృవీకరించడంలో సమస్య ఉంది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి"</string>
+    <string name="fui_error_session_expired">This code is no longer valid</string>
+    <string name="fui_incorrect_code_dialog_body">తప్పు కోడ్ మళ్లీ ప్రయత్నించండి</string>
+    <string name="fui_resend_code_in">Resend code in 0:%02d</string>
+    <string name="fui_verify_your_phone_title">Verify phone number</string>
+    <string name="app_name">రోజ్గార్</string>
+    <string name="start">" ప్రారంభం"</string>
+    <string name="click_here_to_register" translatable="false"><u> నమోదు చేయడానికి ఇక్కడ క్లిక్ చేయండి</u></string>
+</resources>

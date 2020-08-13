@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_design"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/job_seeker_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#ffffff"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/icon_job_seeker"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:background="#5972D8"
+            android:contentDescription="Job Seeeker Icon"
+            app:srcCompat="@drawable/jobseeker" />
+
+        <TextView
+            android:id="@+id/seeker_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/icon_job_seeker"
+            android:text="Job Seeker"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description_seeker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seeker_heading"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/icon_job_seeker"
+            android:text="@string/seeker_description"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/register_seeker"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/description_seeker"
+            android:layout_centerHorizontal="true"
+            android:background="#27B6D1"
+            android:text="Register" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/job_provider_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#ffffff"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/icon_job_provider"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:background="#1943EE"
+            android:contentDescription="Job Provider Icon"
+            app:srcCompat="@drawable/jobprovider" />
+
+        <TextView
+            android:id="@+id/provider_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_toRightOf="@+id/icon_job_provider"
+            android:text="Job Provider"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description_provider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/provider_heading"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/icon_job_provider"
+            android:text="@string/provider_description"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/register_provider"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/description_provider"
+            android:layout_centerHorizontal="true"
+            android:background="#27B6D1"
+            android:text="Register" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "296262469689",
+    "firebase_url": "https://rozgaar-e3630.firebaseio.com",
+    "project_id": "rozgaar-e3630",
+    "storage_bucket": "rozgaar-e3630.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296262469689:android:81ce6e45a739576234e5e8",
+        "android_client_info": {
+          "package_name": "com.asm.rozgaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296262469689-fssnb4r7oe6759no2cnk8ia4l9k8k859.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asm.rozgaar",
+            "certificate_hash": "387115f0eebb784d39eb77b1790aa3f4daf1ab65"
+          }
+        },
+        {
+          "client_id": "296262469689-c65n7r2gt89jaiol1lvpp74kjuklldfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoKpF5Tlqpehulai57TfN0saxKrcPweqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296262469689-c65n7r2gt89jaiol1lvpp74kjuklldfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

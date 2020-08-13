@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+    android:text="item"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:checked="false"/>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_design">
+
+    <RelativeLayout
+        android:id="@+id/template_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/top_template"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <RelativeLayout
+                android:id="@+id/profile_pic_container"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_pic_view"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kindpng_691018" />
+
+                <ImageView
+                    android:id="@+id/online_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    app:srcCompat="@android:drawable/presence_online" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/name_displayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/profile_pic_container"
+                android:text="Name here"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/phone_displayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_displayed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/profile_pic_container"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:gravity="center"
+                android:text="+9100000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/dob_displayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_displayed"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/profile_pic_container"
+                android:drawableLeft="@drawable/ic_cake_black_24dp"
+                android:gravity="center"
+                android:text="DD/MM/YYYY" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/middle_template"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/top_template"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/interests_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="5dp"
+                android:text="Interests"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/interests_displayed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/interests_text"
+                android:layout_marginLeft="20dp"
+                android:text="No interests selected"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bottom_template"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/middle_template"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Known Languages-Not Entered"
+                android:id="@+id/languages_list_displayed"
+                android:padding="10dp"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/gender_displayed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/languages_list_displayed"
+                android:padding="10dp"
+                android:text="Gender - None"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/address_displayed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gender_displayed"
+                android:padding="10dp"
+                android:text="Address - Not entered"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/aadhar_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/address_displayed"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Aadhar Card"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/aadhar_tickmark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorButton"
+                    app:srcCompat="@android:drawable/ic_dialog_alert" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/driving_license"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aadhar_card"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Driving License"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/license_tickmark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorButton"
+                    app:srcCompat="@android:drawable/ic_dialog_alert" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pan_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/driving_license"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="PAN Card"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/pan_tickmark"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorButton"
+                    app:srcCompat="@android:drawable/ic_dialog_alert" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bottom_template"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E829D1CC"
+            android:text="Edit" />
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        app:menu="@menu/menu_bottom_nav_bar" />
+
+    <ProgressBar
+        android:id="@+id/profile_page_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+</RelativeLayout>

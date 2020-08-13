@@ -1,0 +1,121 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rozgaar</string>
+    <!-- Phone number auth -->
+    <string name="fui_invalid_phone_number" translation_description="Inline error when phone number entered is invalid">Enter a valid phone number</string>
+    <string name="fui_enter_confirmation_code" translation_description="Phone number verification code entry form title">Enter the 6-digit code we sent to</string>
+    <string name="fui_resend_code_in" translation_description="Countdown timer text that the user needs to wait for before attempting to resend verification sms">Resend code in 0:%02d</string>
+    <string name="fui_verify_your_phone_title" translation_description="Button text to complete phone number verification">Verify phone number</string>
+    <string name="fui_verifying" translation_description="Progress dialog text while phone number is being verified">Verifying…</string>
+    <string name="fui_incorrect_code_dialog_body" translation_description="Inline error when incorrect sms verification code is being used to verify">Wrong code. Try again.</string>
+    <string name="fui_error_too_many_attempts" translation_description="Error message when the phone number has been used too many times">This phone number has been used too many times</string>
+    <string name="fui_error_quota_exceeded" translation_description="Error message when the Firebase project's quota has been exceeded.">There was a problem verifying your phone number</string>
+    <string name="fui_error_session_expired" translation_description="Error message when SMS confirmation code has expired.">This code is no longer valid</string>
+    <string name="fui_sign_in_with_phone_number" translation_description="Label for phone number input form">Sign in with phone number</string>
+    <string name="fui_auto_verified" translation_description="Popup informing the user that their phone number was automatically verified">Phone number automatically verified</string>
+    <string name="fui_resend_code" translation_description="Link text to resend verification sms">Resend Code</string>
+    <string name="fui_verify_phone_number" translation_description="Button text to submit confirmation code and complete phone verification">Verify Phone Number</string>
+    <string name="fui_sms_terms_of_service" translation_description="Fine print warning displayed below Verify Phone Number button">By tapping “%1$s”, an SMS may be sent. Message &amp; data rates may apply.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended" translation_description="Fine print warning displayed below Verify Phone Number button">By tapping “%1$s”, you are indicating that you accept our <xliff:g example="https://google.com/terms" id="tos" translation_description="">%2$s</xliff:g> and <xliff:g example="https://google.com/privacy" id="pp" translation_description="">%3$s</xliff:g>. An SMS may be sent. Message &amp; data rates may apply.</string>
+
+    <string name="number_not_found" translatable="false">Could not get phone number</string>
+    <string name="fui_verify_phone_number_title">Sign In With OTP</string>
+    <string name="click_here_to_register"><u>Click here to Register</u></string>
+    <string name="welcome_to_rozgaar">WELCOME TO ROZGAAR</string>
+    <string name="start">Start</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="no">NO</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_currently_looking_for_a_job">Are you currently looking for a job?</string>
+    <string name="job_provider_question">Are you currently looking for staff?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_details_form">Name</string>
+    <string name="seeker_description">-More than 10000+ jobs available in various domains
+        \n-Search for jobs in 1000+ cities and remote areas
+        \n-Chat directly with staff recruiters</string>
+    <string name="provider_description">-Recruit staff from 1000 selected locations
+    \n-All job seekers have proper ID proofs
+    \n-Directly communicate with potential staff recruits</string>
+    <string name="click_one_of_the_two_options">Click one of the two options</string>
+    <string name="select_location_optional">Select Location<i>(Optional)</i></string>
+    <string-array name="domains">
+        <item>--Select Domain--</item>
+        <item>Delivery services</item>
+    </string-array>
+    <string-array name="india_states">
+        <item>--Select State--</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Telugu</item>
+        <item>Kannada</item>
+        <item>Marathi</item>
+        <item>Malayalam</item>
+        <item>Tamil</item>
+        <item>Urdu</item>
+    </string-array>
+    <string-array name="interests">
+        <item>Interest1</item>
+        <item>Interest2</item>
+        <item>Interest3</item>
+        <item>Interest4</item>
+        <item>Interest5</item>
+    </string-array>
+    <string-array name="CompanyCategories">
+        <item>--Select Company Category--</item>
+        <item>Company Category-1</item>
+        <item>Company Category-2</item>
+        <item>Company Category-3</item>
+        <item>Company Category-4</item>
+        <item>Company Category-5</item>
+    </string-array>
+    <string-array name="JobCategories">
+        <item>--Select Job Category--</item>
+        <item>Job Category-1</item>
+        <item>Job Category-2</item>
+        <item>Job Category-3</item>
+        <item>Job Category-4</item>
+        <item>Job Category-5</item>
+    </string-array>
+</resources>
+
+
